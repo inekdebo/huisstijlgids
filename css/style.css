@@ -102,6 +102,12 @@ a {
     color: white;
 }
 
+a:hover {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
 /* Fonts */
 
 @font-face {
@@ -114,6 +120,21 @@ a {
     src: url('../fonts/VAGRoundedBold.ttf');
 }
 
+/* General styles */ 
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: VagBold, sans-serif;
+}
+
+h3 {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
 
 /* navigation */
 
@@ -131,15 +152,131 @@ body {
     padding: 10px;
 }
 
+.nav .home-button {
+    width: 50px;
+    margin: 10px 30px;
+}
+
+
+.nav .nav-left {
+    width: 20%;
+}
+
+.nav .nav-right {
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    float: right;
+    width: 80%;
+}
+
+.nav .nav-right a {
+    margin: 0 16px;
+}
+
 
 /* footer */
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    padding-bottom: 60px;
     background-color: #368289;
     padding: 10px;
     text-align: center;
     color: white;
     width: 100%;
+}
+
+footer p {
+    color: white;
+}
+
+footer h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* home */ 
+
+.home-block {
+    width: 540px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.home-block h1, .home-block-wrapper h1 {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.home-block p {
+    margin-bottom: 60px;
+    line-height: 20px;
+}
+
+.home-block-wrapper {
+    position: relative;
+}
+
+.home-block-core {
+    padding-bottom: 100px;
+}
+
+.home-block-core p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+#curve {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 100%;
+    z-index: -100;
+}
+
+.img-wrapper-round {
+    margin: 0 auto 20px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+}
+
+.core-1 {
+    background: url('/assets/img/nqobile-vundla-573154-unsplash.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.core-2 {
+    background: url('/assets/img/vladislav-klapin-465070-unsplash.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.core-3 {
+    background: url('/assets/img/clark-tibbs-367075-unsplash.jpg');
+    background-position: center center;
+    background-size: contain;
+}
+.core-4 {
+    background: url('/assets/img/achievement-adult-book-1043514.jpg');
+    background-position: center center;
+    background-size: contain;
+}
+.core-5 {
+    background: url('/assets/img/breakfast-cafe-caffeine-1477851.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+.core-6 {
+    background: url('/assets/img/nicole-harrington-716781-unsplash.jpg');
+    background-position: center center;
+    background-size: contain;
+}
+.core-7 {
+    background: url('/assets/img/blur-care-cat-569170.jpg');
+    background-position: center center;
+    background-size: cover;
 }
