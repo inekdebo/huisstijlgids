@@ -21,10 +21,10 @@ permalink: /
 </div>
 <div class="container-fluid home-block-wrapper">
     <div class="container home-block-core">
-        <div class="row">
+        <div class="row mb-4">
             <h1>Core values</h1>
         </div>
-        <div class="row">
+        <div class="row pb-4">
             <div class="col-3">
                 <div class="img-wrapper-round core-1"></div>
                 <h3>Cheerful</h3>
