@@ -108,6 +108,8 @@ a:hover {
     font-weight: bold;
 }
 
+
+
 /* Fonts */
 
 @font-face {
@@ -126,15 +128,39 @@ h1 {
     font-size: 50px;
     text-align: center;
     font-family: VagBold, sans-serif;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+p {
+    margin-bottom: 20px;
 }
 
 h3 {
-    font-size: 25px;
-    text-align: center;
-    color: white;
+    font-size: 22px;
+    text-align: left;
+    color: #262626;
     font-weight: bold;
     margin-bottom: 20px;
     -webkit-font-smoothing: antialiased;
+}
+
+button {
+    text-align: center;
+    border-radius: 40px;
+    border: none;
+}
+
+.section-wrapper {
+    margin-top: 70px;
+}
+
+.subtitle {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bolder;
 }
 
 /* navigation */
@@ -144,13 +170,14 @@ body {
 }
 
 .nav {
-    background-color: #368289;
+    background-color: #262626;
     color: white;
     font-family: 'Montserrat', sans-serif;
     height: 100px;
     border-bottom-left-radius: 100% 55%;
     border-bottom-right-radius: 100% 25%;
     padding: 10px;
+    margin-bottom: 70px;
 }
 
 .nav .home-button {
@@ -179,11 +206,12 @@ body {
 
 /* footer */
 footer {
-    background-color: #368289;
+    background-color: #262626;
     padding: 10px 10px 30px 10px;
     text-align: center;
     color: white;
     width: 100%;
+    margin-top: 65px;
 }
 
 footer p {
@@ -219,7 +247,6 @@ footer p {
 
 .home-block {
     width: 540px;
-    margin-top: 70px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -298,4 +325,80 @@ footer p {
     background: url('/huisstijlgids/assets/img/blur-care-cat-569170.jpg');
     background-position: center center;
     background-size: cover;
+}
+
+/* logo */
+
+.u-grid {
+    padding: 20px;
+}
+
+.gif {
+    background-color: grey;
+    border-radius: 50%;
+    height: 100%;
+    padding-top: 100%;
+}
+
+.download {
+    color: white;
+}
+
+.download h3 {
+    color: white;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.download button {
+    align-self: flex-end;
+    background-color: white;
+    color: #262626;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 12px 40px;
+}
+
+#download-background {
+    position: absolute;
+    bottom: 0;
+    z-index: -100;
+}
+
+.logo-wrapper {
+    background-image: url('/huisstijlgids/assets/img/logo-curve.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 1px;
+    padding-bottom: 70px;
+}
+
+.download-row {
+    margin-bottom: 20px;
+}
+
+.download-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.download-circle {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.number-circle {
+    background-color: #262626;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
