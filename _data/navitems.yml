@@ -2,13 +2,13 @@ docs_list_title: ACME Documentation
 docs:
 
 - title: Home
-  url: /huisstijlgids/
+  url: https://inekdebo.github.io/huisstijlgids/
 
 - title: Logo
   url: /huisstijlgids/logo/
 
 - title: Typography
-  url: /huisstijlgids/typography/
+  url: /huisstijlgids/typo/
 
 - title: Icons
   url: /huisstijlgids/icons/
