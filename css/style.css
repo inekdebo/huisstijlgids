@@ -181,9 +181,14 @@ body {
 }
 
 .nav .nav-right a {
-    margin: 0 40px;
+    margin: 0 30px;
     font-size: 25px;
     font-weight: bold;
+    padding: 10px;
+}
+
+.nav .nav-right .active {
+    border-bottom: 2px solid white;
 }
 
 

@@ -7,12 +7,15 @@
         </a>
     </div>
     <div class="nav-right">
-        <a href="/huisstijlgids">Home</a>
+    {% for item in site.data.navitems.docs %}
+      <a class="{% if item.url == page.url %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+   {% endfor %}
+        <!-- <a href="/huisstijlgids">Home</a>
         <a href="/huisstijlgids/logo">Logo</a>
         <a href="/huisstijlgids/typo">Typografie</a>
         <a href="/huisstijlgids/icons">Icons</a>
         <a href="/huisstijlgids/colors">Kleuren</a>
         <a href="/huisstijlgids/print">Print</a>
-        <a href="/huisstijlgids/digital">Digitaal</a>
+        <a href="/huisstijlgids/digital">Digitaal</a> -->
     </div>
 </div>
