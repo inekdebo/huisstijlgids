@@ -1,52 +1,6 @@
 /* Reset */
 
-html, body, div, span, applet, object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+html, body, div, span, applet, object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -56,17 +10,7 @@ video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
     display: block;
 }
 
@@ -132,8 +76,16 @@ h1 {
     margin-bottom: 40px;
 }
 
+h2 {
+    font-size: 25px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
 p {
     margin-bottom: 20px;
+    line-height: 21px;
 }
 
 h3 {
@@ -145,10 +97,32 @@ h3 {
     -webkit-font-smoothing: antialiased;
 }
 
+h4 {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 100%;
+}
+
 button {
     text-align: center;
     border-radius: 40px;
+    background-color: #262626;
+    color: white;
     border: none;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 12px 40px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.centered-block {
+    max-width: 540px;
+    text-align: center;
+    margin: 0 auto 40px;
 }
 
 .section-wrapper {
@@ -163,6 +137,13 @@ button {
     font-weight: bolder;
 }
 
+.italic {
+    font-style: italic;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
 /* navigation */
 
 body {
@@ -200,22 +181,34 @@ body {
 }
 
 .nav .nav-right a {
-    margin: 0 16px;
+    margin: 0 30px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 
 /* footer */
 footer {
     background-color: #262626;
-    padding: 10px 10px 30px 10px;
+    padding: 40px 10px;
     text-align: center;
     color: white;
     width: 100%;
     margin-top: 65px;
 }
 
-footer p {
+footer p, footer h3 {
     color: white;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 4px;
+}
+
+footer h3 {
+    font-size: 25px;
+    margin-bottom: 30px;
 }
 
 
@@ -224,11 +217,11 @@ footer p {
     display: block;
     position: absolute;
     right: -15px;
-    top: 10px;
+    top: 25px;
     color: white;
     z-index: 100;
-    border: 1px solid white;
-    height: 70px;
+    border: 2px solid white;
+    height: 100px;
 }
 
 .footer-border-left:before {
@@ -236,17 +229,17 @@ footer p {
     display: block;
     position: absolute;
     right: 15px;
-    top: 10px;
+    top: 25px;
     color: white;
     z-index: 100;
-    border: 1px solid white;
-    height: 70px;
+    border: 2px solid white;
+    height: 100px;
 }
 
 /* home */ 
 
 .home-block {
-    width: 540px;
+    max-width: 540px;
     margin-bottom: 50px;
     text-align: center;
 }
@@ -254,6 +247,11 @@ footer p {
 .home-block h1, .home-block-wrapper h1 {
     width: 100%;
     margin-bottom: 40px;
+}
+
+.home-block-core h3 {
+    color: white;
+    text-align: center;
 }
 
 .home-block p {
@@ -273,6 +271,10 @@ footer p {
     text-align: center;
     color: white;
     font-weight: bold;
+}
+
+.address p {
+    margin-bottom: 0;
 }
 
 #curve {
@@ -402,3 +404,324 @@ footer p {
     align-items: center;
     border-radius: 50%;
 }
+
+/* Typography */
+
+.vag-rounded-bold {
+    font-family: 'VAGRoundedBold', sans-serif;
+    font-size: 22px;
+}
+
+.montserrat-regular {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.montserrat-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.montserrat-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.hierarchy {
+    margin: 100px 0 ;
+}
+
+.typography a {
+    color: #262626;
+}
+
+.hierarchy-block p {
+    margin-bottom: 0;
+}
+
+.hierarchy-block h1, .hierarchy-block h2 {
+    margin-bottom: 0;
+}
+
+.hierarchy-flex {
+    display:flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.hierarchy-flex:after {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        border-bottom: 2px solid #808080;
+        width: 80%;
+}
+
+.hierarchy-block {
+    margin-bottom: 20px;
+}
+
+/* colors */ 
+
+.circle {
+    height: 107px;
+    width: 107px;
+    border-radius: 50%;
+}
+
+.circle-black {
+    background-color: #262626;
+}
+
+.circle-outer-black {
+    border: 1px solid #262626;
+}
+
+.color-types {
+    font-weight: bold;
+}
+
+.color-types p, .color-values p {
+    margin-bottom: 6px;
+}
+
+.color-block h2 {
+    margin-bottom: 0;
+}
+
+.color-circle-block {
+    margin: 40px 0;
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.circle-a {
+    z-index: 0;
+    background-color: #FFEDF8;
+}
+
+.circle-b {
+    z-index: -1;
+    background-color: #8187B9;
+    margin-left: -30px;
+}
+
+.circle-c {
+    z-index: -2;
+    background-color: #514B87;
+    margin-left: -30px;
+}
+
+.circle-d {
+    z-index: -3;
+    background-color: #0F1025;
+    margin-left: -30px;
+}
+
+.circle-e {
+    z-index: 0;
+    background-color: #D1FFFF;
+}
+
+.circle-f {
+    z-index: -1;
+    background-color: #6CBBC3;
+    margin-left: -30px;
+}
+
+.circle-g {
+    z-index: -2;
+    background-color: #368289;
+    margin-left: -30px;
+}
+
+.circle-h {
+    z-index: -3;
+    background-color: #061825;
+    margin-left: -30px;
+}
+
+.circle-i {
+    z-index: 0;
+    background-color: #FCD2D2;
+}
+
+.circle-j {
+    z-index: -1;
+    background-color: #FD9B98;
+    margin-left: -30px;
+}
+
+.circle-k {
+    z-index: -2;
+    background-color: #F58447;
+    margin-left: -30px;
+}
+
+.circle-l {
+    z-index: -3;
+    background-color: #BA235E;
+    margin-left: -30px;
+}
+
+.circle-m {
+    z-index: 0;
+    background-color: #39BAA0;
+}
+
+.circle-n {
+    z-index: -1;
+    background-color: #FAB915;
+    margin-left: -30px;
+}
+
+.circle-o {
+    z-index: -2;
+    background-color: #EE3742;
+    margin-left: -30px;
+}
+
+.circle-p {
+    z-index: -3;
+    background-color: #4A2349;
+    margin-left: -30px;
+}
+
+.circle-q {
+    z-index: 0;
+    background-color: #C6EF9A;
+}
+
+.circle-r {
+    z-index: -1;
+    background-color: #A4E666;
+    margin-left: -30px;
+}
+
+.circle-s {
+    z-index: -2;
+    background-color: #616536;
+    margin-left: -30px;
+}
+
+.circle-t {
+    z-index: -3;
+    background-color: #1B1112;
+    margin-left: -30px;
+}
+
+.circle-u {
+    z-index: 0;
+    background-color: #D1CD79;
+}
+
+.circle-v {
+    z-index: -1;
+    background-color: #BEA51A;
+    margin-left: -30px;
+}
+
+.circle-w {
+    z-index: -2;
+    background-color: #956F4E;
+    margin-left: -30px;
+}
+
+.circle-x {
+    z-index: -3;
+    background-color: #3C2718;
+    margin-left: -30px;
+}
+
+.circle-y {
+    z-index: 0;
+    background-color: #F6921D;
+}
+
+.circle-z {
+    z-index: -1;
+    background-color: #B14623;
+    margin-left: -30px;
+}
+
+.circle-A {
+    z-index: -2;
+    background-color: #602749;
+    margin-left: -30px;
+}
+
+.circle-B {
+    z-index: -3;
+    background-color: #130912;
+    margin-left: -30px;
+}
+
+.circle-y {
+    z-index: 0;
+    background-color: #9AE0F4;
+}
+
+.circle-z {
+    z-index: -1;
+    background-color: #59C8E2;
+    margin-left: -30px;
+}
+
+.circle-A {
+    z-index: -2;
+    background-color: #FEBD41;
+    margin-left: -30px;
+}
+
+.circle-B {
+    z-index: -3;
+    background-color: #D68329;
+    margin-left: -30px;
+}
+
+.circle-y {
+    z-index: 0;
+    background-color: #DEE8D5;
+}
+
+.circle-z {
+    z-index: -1;
+    background-color: #6CB39F;
+    margin-left: -30px;
+}
+
+.circle-A {
+    z-index: -2;
+    background-color: #DC9E82;
+    margin-left: -30px;
+}
+
+.circle-B {
+    z-index: -3;
+    background-color: #C94545;
+    margin-left: -30px;
+}
+
+.bg-blue {
+    background-color: #39BAA0;
+    border-radius: 20px;
+}
+
+.bg-dark {
+    background-color: #262626;
+    border-radius: 20px;
+}
+
+.img-row {
+    margin: -2px 0;
+}
+
+
+/* print & digital */
+
+.print, .digital {
+    height: 56vh;
+}
+
