@@ -8,7 +8,7 @@
     </div>
     <div class="nav-right">
     {% for item in site.data.navitems.docs %}
-      <a class="{% if item.url == page.url %}active{% endif %}" href="{{ item.url }}">{{ item.title }}</a>
+      <a class="{% if item.url == page.url %}active{% endif %}" href="{{ item.url }}"  {% page.url %}>{{ item.title }}</a>
    {% endfor %}
         <!-- <a href="/huisstijlgids">Home</a>
         <a href="/huisstijlgids/logo">Logo</a>
