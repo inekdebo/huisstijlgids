@@ -2,22 +2,28 @@ docs_list_title: ACME Documentation
 docs:
 
 - title: Home
-  url: /
+  url: /huisstijlgids
 
 - title: Logo
-  url: /logo/
+  url: /huisstijlgids/logo/
+  base-url: /logo
 
 - title: Typography
-  url: /typo/
+  url: /huisstijlgids/typo/
+  base-url: /typo
 
 - title: Icons
-  url: /icons/
+  url: /huisstijlgids/icons/
+  base-url: /icons
 
 - title: Colors
-  url: /colors/
+  url: /huisstijlgids/colors/
+  base-url: /colors
 
 - title: Print
-  url: /print/
+  url: /huisstijlgids/print/
+  base-url: /print
 
 - title: Digital
-  url: /digital/
+  url: /huisstijlgids/digital/
+  base-url: /digital
