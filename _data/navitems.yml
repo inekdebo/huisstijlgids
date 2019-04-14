@@ -6,24 +6,24 @@ docs:
 
 - title: Logo
   url: /huisstijlgids/logo/
-  base-url: /logo
+  base-url: /logo/
 
 - title: Typography
   url: /huisstijlgids/typo/
-  base-url: /typo
+  base-url: /typo/
 
 - title: Icons
   url: /huisstijlgids/icons/
-  base-url: /icons
+  base-url: /icons/
 
 - title: Colors
   url: /huisstijlgids/colors/
-  base-url: /colors
+  base-url: /colors/
 
 - title: Print
   url: /huisstijlgids/print/
-  base-url: /print
+  base-url: /print/
 
 - title: Digital
   url: /huisstijlgids/digital/
-  base-url: /digital
+  base-url: /digital/
