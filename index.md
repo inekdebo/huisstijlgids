@@ -74,7 +74,7 @@ permalink: /
                     <span class="bold">can be themselves, make new friends, be creative, relax and overall
                     to have fun!</span></p><br>
                     <p class="italic">Flüüfff ASBL is a registered Belgian Non Profit Organisation with
-organisation number 0662498716</i> </p>
+organisation number 0662498716 </p>
                 <div class="address">
                     <p class="bold">Address</p>
                     <p>Flüüfff, asbl</p>
