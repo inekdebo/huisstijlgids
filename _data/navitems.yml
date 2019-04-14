@@ -3,6 +3,7 @@ docs:
 
 - title: Home
   url: /huisstijlgids
+  base-url: /
 
 - title: Logo
   url: /huisstijlgids/logo/
