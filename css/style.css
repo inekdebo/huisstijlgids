@@ -112,7 +112,7 @@ button {
     border: none;
     font-weight: bold;
     font-size: 25px;
-    padding: 12px 40px;
+    padding: 16px 40px;
 }
 
 .align-left {
@@ -139,6 +139,14 @@ button {
 
 .italic {
     font-style: italic;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
 }
 
 .mb-50 {
@@ -340,6 +348,10 @@ footer h3 {
     padding: 20px;
 }
 
+.bg-wood {
+
+}
+
 .gif {
     border-radius: 50%;
 }
@@ -402,6 +414,11 @@ footer h3 {
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+}
+
+.inverted {
+        background-color: white;
+        color: #262626;
 }
 
 /* Typography */
@@ -665,7 +682,6 @@ footer h3 {
 .circle-D {
     z-index: -1;
     background-color: #59C8E2;
-    margin-left: -30px;
 }
 
 .circle-E {
@@ -720,7 +736,26 @@ footer h3 {
 
 /* print & digital */
 
-.print, .digital {
-    height: 56vh;
+.container .print {
+    max-width: 1200px;
 }
 
+.print, .digital {
+    /* height: 56vh; */
+}
+
+.print ul {
+    margin-bottom: 14px;
+}
+
+.print ul li {
+    line-height: 24px;
+}
+
+.print h1 {
+    margin-bottom: 14px;
+}
+
+.print .download {
+    margin-top: 20px;
+}
