@@ -39,7 +39,7 @@ permalink: /
             </div>
             <div class="col-3">
                 <div class="img-wrapper-round core-4"></div>
-                <h3>Progessional</h3>
+                <h3>Professional</h3>
             </div>
         </div>
         <div class="row justify-content-center mb-4">
