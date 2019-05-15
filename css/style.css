@@ -141,6 +141,14 @@ button {
     font-style: italic;
 }
 
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
 .mb-20 {
     margin-bottom: 20px;
 }
@@ -274,6 +282,7 @@ footer h3 {
 
 .home-block-wrapper {
     position: relative;
+    margin-bottom: -60px;
 }
 
 .home-block-core {
@@ -388,6 +397,7 @@ footer h3 {
     background-position: center;
     padding-top: 1px;
     padding-bottom: 70px;
+    margin-top: 100px;
 }
 
 .download-row {
